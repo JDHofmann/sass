@@ -1,12 +1,31 @@
 $primaryBtn : #0080ff;
+$btnHoverColor: #00c0ff;
 
 header {
     background: #d0d0ff;
     // color: #006000;
     display: flex;
     justify-content: center;
+    button {
+        background: $primaryBtn;
+        &:hover {
+            background: $btnHoverColor;
+        }
+    }
 }
 
-header button, .contact button {
-    background: $primaryBtn;
+.contact {
+    button {
+        background: $primaryBtn;
+        &:hover {
+            background: $btnHoverColor;
+        }
+    }
+    .info {
+        h2 {
+            &::after {
+                content: ":"
+            }
+        }
+    }
 }

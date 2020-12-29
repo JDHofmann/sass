@@ -8,7 +8,23 @@ header {
           justify-content: center;
 }
 
-header button, .contact button {
+header button {
   background: #0080ff;
+}
+
+header button:hover {
+  background: #00c0ff;
+}
+
+.contact button {
+  background: #0080ff;
+}
+
+.contact button:hover {
+  background: #00c0ff;
+}
+
+.contact .info h2::after {
+  content: ":";
 }
 /*# sourceMappingURL=style.css.map */
