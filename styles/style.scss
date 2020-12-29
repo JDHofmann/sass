@@ -4,7 +4,7 @@
 
 .contact {
 
-    @include flexCenter(row);
+    @include flexCenter(row, #d0ffd0);
 
     button {
         background: $primaryBtn;
