@@ -14,9 +14,13 @@
     }
     .info {
         h2 {
+            text-decoration: underline;
             &::after {
                 content: ":"
             }
+        }
+        p {
+            @extend h2;
         }
     }
 }
